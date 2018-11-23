@@ -27,8 +27,8 @@ class NewsController extends \GeorgRinger\News\Controller\NewsController
      *
      * @param \GeorgRinger\Eventnews\Domain\Model\Dto\SearchDemand $search
      * @param array $overwriteDemand
-     * @ignorevalidation $search
-     * @dontverifyrequesthash
+     * @TYPO3\CMS\Extbase\Annotation\IgnoreValidation $search
+     * ToDo: removed annotation - not found in EXTBASE... @ dontverifyrequesthash
      * @return void
      */
     public function monthAction(
